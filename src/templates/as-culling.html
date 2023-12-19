@@ -167,7 +167,7 @@ bodyClass: bg-black
 
         <div class="mt-3 text-center">
           <!-- Album created -->
-          <div class="inline-block mr-2">
+          <div class="inline-block">
             <div
               class="text-[#F6F6F6] text-[42px] font-normal leading-[42px] -tracking-[2.1px]"
             >
@@ -179,7 +179,7 @@ bodyClass: bg-black
           </div>
 
           <!-- Photos Culled -->
-          <div class="inline-block mx-2">
+          <div class="inline-block mx-6">
             <div
               class="text-[#F6F6F6] text-[42px] font-normal leading-[42px] -tracking-[2.1px]"
             >
@@ -191,7 +191,7 @@ bodyClass: bg-black
           </div>
 
           <!-- Selected Photos -->
-          <div class="inline-block mx-2">
+          <div class="inline-block">
             <div
               class="text-[#F6F6F6] text-[42px] font-normal leading-[42px] -tracking-[2.1px]"
             >
@@ -201,70 +201,44 @@ bodyClass: bg-black
               Selected Photos
             </div>
           </div>
-
-          <!-- Minutes Saved -->
-          <div class="inline-block ml-2">
-            <div
-              class="text-[#F6F6F6] text-[42px] font-normal leading-[42px] -tracking-[2.1px]"
-            >
-              3600
-            </div>
-            <div class="mt-1 max-w-[175px] mx-auto text-xs leading-[14.4px]">
-              Minutes Saved
-            </div>
-          </div>
         </div>
       </div>
 
       <table class="mb-4">
         <tr>
-          <!-- Favorite Genre -->
+          <!-- Favorite Genre  -->
           <td>
             <div
-              class="bg-[#2E2E2E] rounded-[10px] p-6 w-[297px] h-[220px] box-border"
+              class="bg-[#2E2E2E] rounded-[10px] w-[297px] h-[230px] box-border overflow-hidden"
             >
-              <div
-                class="text-[#F39B3A] text-[8px] font-semibold uppercase leading-[9.6px] tracking-[2.4px]"
-              >
-                Favorite Genre
-              </div>
-
-              <div class="mt-3">
-                <div class="text-[36px] font-normal leading-[36px]">
-                  Wedding
-                </div>
-                <div class="max-w-[175px] text-xs leading-[14.4px]">
-                  80% of your photos were from this genre
-                </div>
-              </div>
-
-              <div class="text-right">
-                <img
-                  src="https://download.aftershoot.com/email-images/wedding.png"
-                  width="154"
-                  class=""
-                />
-              </div>
+              <img
+                src="images/wedding.png"
+                width="100%"
+                height="100%"
+                class=""
+              />
             </div>
           </td>
 
           <!-- Favorite Workflow -->
           <td>
             <div
-              class="bg-[#6A4F36] ml-4 rounded-[10px] p-6 w-[297px] h-[220px] box-border"
+              class="bg-[#6A4F36] ml-4 rounded-[10px] p-6 w-[297px] h-[230px] box-border"
             >
               <div
-                class="text-[#F39B3A] text-[8px] mb-6 font-semibold uppercase leading-[9.6px] tracking-[2.4px]"
+                class="text-[#F39B3A] text-[8px] mb-3 font-semibold uppercase leading-[9.6px] tracking-[2.4px]"
               >
                 Your Favorite Workflow
               </div>
 
-              <div class="text-[36px] font-normal leading-[36px]">
-                Aftershoot + LightroomCC
+              <div class="text-[36px] font-normal leading-[36px] mb-3">
+                Aftershoot +
+                <br />
+                LightroomCC
               </div>
 
               <!-- apps -->
-              <div class="text-right">
+              <div class="text-right mt-5">
                 <img
                   src="https://download.aftershoot.com/email-images/Workflow_A_Lr.png"
                   width="150"
@@ -326,7 +300,8 @@ bodyClass: bg-black
                 >
                   Your Favorite Feature
                 </div>
-                <div>
+
+                <div class="mb-auto">
                   <div class="text-[36px] font-semibold leading-[32px] mb-4">
                     Spraycan
                   </div>
@@ -337,15 +312,15 @@ bodyClass: bg-black
                 </div>
 
                 <!-- Other Favorite -->
-                <div class="mt-6">
+                <div class="mt-4">
                   <div
                     class="text-[#F39B3A] mb-2 text-[8px] font-semibold uppercase leading-[9.6px] tracking-[2.4px]"
                   >
                     Other Favorite
                   </div>
                   <div class="">
-                    <div class="text-[12px]">2. Advanced filters</div>
-                    <div class="text-[12px]">3. Swaps</div>
+                    <div class="text-xs">2. Advanced filters</div>
+                    <div class="text-xs">3. Swaps</div>
                   </div>
                 </div>
               </div>
