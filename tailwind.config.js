@@ -13,6 +13,9 @@ module.exports = {
       "black-white-with-stops": ["#000", "#000 45%", "#fff 55%", "#fff"],
     },
     extend: {
+      width: {
+        "50%": "calc(50% - 8px)",
+      },
       spacing: {
         screen: "100vw",
         full: "100%",
@@ -113,6 +116,7 @@ module.exports = {
         "7xl": "72px",
         "8xl": "96px",
         "9xl": "128px",
+        "2vw": "min(max(2rem, 3rem, 46px)",
       },
       letterSpacing: (theme) => ({
         ...theme("width"),
