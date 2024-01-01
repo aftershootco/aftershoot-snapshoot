@@ -4890,10 +4890,10 @@ tailwindcss-gradients@^3.0.0:
     color "^3.1.2"
     lodash "^4.17.15"
 
-tailwindcss-mso@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/tailwindcss-mso/-/tailwindcss-mso-1.3.0.tgz#05023f191ac200b7da86a179fbf2d18f3b3fa0fd"
-  integrity sha512-aCdQrJaS0GM3/aTOG7T/KuUvoVJvpW4H+9Ao2aYfm3mjd515I5JtJqOcZRXaC99AOTfaKJ0skgRIt8h6LTkDNw==
+tailwindcss-mso@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-mso/-/tailwindcss-mso-1.4.1.tgz#f7a436cd984b3525413b7981a1537004bc976540"
+  integrity sha512-HKxRsUtWxa3iA9KCF+vo2Mxig6ql/O8gJU6V0fM7P379uv/9wIG3Kxs+5+D22GHgsdEWlLOYevFyd5JDLb7x/g==
 
 tailwindcss@^3.2.7:
   version "3.3.6"
