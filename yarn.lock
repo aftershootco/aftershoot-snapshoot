@@ -2935,11 +2935,6 @@ lodash.clonedeep@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==
 
-lodash.get@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
-  integrity sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==
-
 lodash.intersection@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.intersection/-/lodash.intersection-4.4.0.tgz#0a11ba631d0e95c23c7f2f4cbb9a692ed178e705"
@@ -4875,12 +4870,10 @@ tailwindcss-box-shadow@^2.0.0:
   resolved "https://registry.yarnpkg.com/tailwindcss-box-shadow/-/tailwindcss-box-shadow-2.0.1.tgz#5d224fff9231019ff2780c07805821c43608e474"
   integrity sha512-F0reqyXrQkcPQiCM27ZqV8Le0CGqea0S5PCwwgTnNrdzOdDs2y6iJ5jJKIdMgKu/1VxUpgP0CMPU/k8vdqpLBA==
 
-tailwindcss-email-variants@^2.0.0:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/tailwindcss-email-variants/-/tailwindcss-email-variants-2.0.3.tgz#74e733ef0f2bc3a2858346ffd0dc029e4f34d0b5"
-  integrity sha512-AfO4g/ZpTW7EUV9c1F3gJK6Tqud7nz54oqo0U4ik0Y9jK2Wu7KNNFFK2IuhOa2FkuwGfZp6KLs9rTzwandq/+g==
-  dependencies:
-    lodash.get "^4.4.2"
+tailwindcss-email-variants@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-email-variants/-/tailwindcss-email-variants-3.0.0.tgz#0ffc757427fd56236672f71ab8606ec1df0bac33"
+  integrity sha512-qavbGh00bg99tQ7U3iQ8N5JNBg9raXhOdgYfueccP6JLSXOl0n3TG7abgZvxhm3VBQ3MsmOLi276d90moUx8kw==
 
 tailwindcss-gradients@^3.0.0:
   version "3.0.0"
